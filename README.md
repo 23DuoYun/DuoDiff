@@ -32,8 +32,22 @@ This is the official implementation (README) for the paper **DuoDiff: Dual-Strea
 
 Some demo videos are available in the [`examples/`](examples/) folder:
 
-[![Demo 1](examples/demo1.gif)](examples/example1.mp4)  
-[![Demo 2](examples/demo3.gif)](examples/example3.mp4)
+<table>
+  <tr>
+    <td align="center">
+      <a href="examples/example1.mp4">
+        <img src="examples/demo1.gif" width="420" />
+      </a>
+      <br><sub>Demo 1</sub>
+    </td>
+    <td align="center">
+      <a href="examples/example3.mp4">
+        <img src="examples/demo3.gif" width="420" />
+      </a>
+      <br><sub>Demo 2</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
