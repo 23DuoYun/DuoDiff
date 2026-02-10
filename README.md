@@ -19,14 +19,18 @@ This is the official implementation (README) for the paper **DuoDiff: Dual-Strea
  
 <p align="center">
   <img src="assets/comparsion.png" width="800" />
-
-  <em>Figure 1: DuoDiff generates high-fidelity novel views under sparse inputs and large viewpoint changes.</em>
 </p>
 <p align="center">
-  <img src="assets/vggt.png" width="800" />
+  <em>Figure 1: DuoDiff generates high-fidelity novel views under sparse inputs and large viewpoint changes.</em>
+</p>
 
+<p align="center">
+  <img src="assets/vggt.png" width="800" />
+</p>
+<p align="center">
   <em>Figure 2: 3D reconstruction results from synthesized novel views on the DL3DV test set.</em>
 </p>
+
 
 ## Demo Videos
 
