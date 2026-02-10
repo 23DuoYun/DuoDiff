@@ -28,6 +28,12 @@ This is the official implementation (README) for the paper **DuoDiff: Dual-Strea
   <em>Figure 2: 3D reconstruction results from synthesized novel views on the DL3DV test set.</em>
 </p>
 
+## Demo Videos
+
+Some demo videos are available in the [`examples/`](examples/) folder:
+
+- [Demo 1](examples/example1.mp4)
+- [Demo 2](examples/example2.mp4)
 
 ---
 
