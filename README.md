@@ -70,21 +70,18 @@ DuoDiff formulates NVS as **conditional one-step diffusion** guided by a **conti
 <p align="center">
   <img src="assets/main.png" alt="DuoDiff Framework" width="900" />
 </p>
+
 1. **Geometry Prior Construction**
    - Reconstruct a sparse point cloud and camera parameters (e.g., via a dense geometry predictor).
    - Project point cloud to target view(s) to obtain geometric projections.
    - Apply **RBF-based densification** to produce a continuous dense prior for more complete and stable geometry guidance.
+   
 2. **Dual-Stream Encoder Guidance**
    - **Structure Encoder (Es):** encodes co-visibility cues from neighboring projected views to improve occlusion handling and cross-view consistency.
    - **Content Encoder (Ec):** selects the best reference view according to angular deviation and extracts semantic/texture guidance to reduce texture drift.
 
 3. **One-Step Diffusion with Conditional Injection**
    - Multi-scale features are fused and injected into the SD-Turbo U-Net decoder using **Zero-Convolution residual blocks** and **LoRA** fine-tuning for one-step generation.
-<!-- <p align="center">
-  <!-- Replace with your method figure -->
-  <!-- <img src="assets/framework.png" width="900" /> -->
-  <em>Overall framework: geometry prior + dual-stream encoders + one-step diffusion injection.</em>
-</p> -->
 
 ---
 
