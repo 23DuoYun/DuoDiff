@@ -126,3 +126,5 @@ We provide simple scripts to start the training and evaluation process.
 Training scripts are not organized yet. Please do not run this command for now. (Will be updated after code cleanup.)
 
 ### Evaluation
+
+Evaluation scripts are not organized yet. Please do not run this command for now. (Will be updated after code cleanup.)
