@@ -74,15 +74,13 @@ DuoDiff formulates NVS as **conditional one-step diffusion** guided by a **conti
 1. **Geometry Prior Construction**
    - Reconstruct a sparse point cloud and camera parameters (e.g., via a dense geometry predictor).
    - Project point cloud to target view(s) to obtain geometric projections.
-   - Apply **RBF-based densification** to produce a continuous dense prior for more complete and stable geometry guidance. :contentReference[oaicite:7]{index=7}  
-
+   - Apply **RBF-based densification** to produce a continuous dense prior for more complete and stable geometry guidance.
 2. **Dual-Stream Encoder Guidance**
-   - **Structure Encoder (Es):** encodes co-visibility cues from neighboring projected views to improve occlusion handling and cross-view consistency. :contentReference[oaicite:8]{index=8}  
-   - **Content Encoder (Ec):** selects the best reference view according to angular deviation and extracts semantic/texture guidance to reduce texture drift. :contentReference[oaicite:9]{index=9}  
+   - **Structure Encoder (Es):** encodes co-visibility cues from neighboring projected views to improve occlusion handling and cross-view consistency.
+   - **Content Encoder (Ec):** selects the best reference view according to angular deviation and extracts semantic/texture guidance to reduce texture drift.
 
 3. **One-Step Diffusion with Conditional Injection**
-   - Multi-scale features are fused and injected into the SD-Turbo U-Net decoder using **Zero-Convolution residual blocks** and **LoRA** fine-tuning for one-step generation. :contentReference[oaicite:10]{index=10}  
-
+   - Multi-scale features are fused and injected into the SD-Turbo U-Net decoder using **Zero-Convolution residual blocks** and **LoRA** fine-tuning for one-step generation.
 <p align="center">
   <!-- Replace with your method figure -->
   <!-- <img src="assets/framework.png" width="900" /> -->
